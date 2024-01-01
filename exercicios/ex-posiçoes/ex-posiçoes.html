@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        @font-face {
+            font-family: blazed;
+            src: url(Blazed.ttf);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            background-color: #6ac4f8;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #5880a1;
+            font-size: 2em;
+            text-align: center;
+            font-family: 'blazed', cursive;
+        }
+
+        .div1 {
+            border: 5px solid gray;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 250px;
+            top: 170px;
+            line-height: 25px;
+        }
+
+        .div1>p {
+            line-height: 23px;
+            font-size: 20px;
+        }
+
+        .div2 {
+            border: 5px solid gray;
+            width: 300px;
+            height: 300px;
+            position: relative;
+            left: 1200px;
+            top: 50px;
+        }
+
+        .div2>p {
+            line-height: 23px;
+            font-size: 20px;
+        }
+
+        .imagem {
+            position: relative;
+            left: 730px;
+        }
+
+        .div3 {
+            width: 200px;
+            height: 200px;
+            border: 3px solid rgb(154, 154, 172);
+            position: relative;
+            left: 970px;
+            bottom: 70px;
+            list-style-position: inside;
+            line-height: 27px;
+        }
+
+        .div3>h2 {
+            text-align: center;
+
+        }
+
+        .div3>ul>li,
+        h2 {
+            color: white;
+            font-size: 20px;
+        }
+
+        .div3 > li{
+            font-size: 20px;
+        }
+
+        .forms {
+            background-color: #48acff;
+            text-align: center;
+        }
+
+        footer {
+            padding: 8px;
+            background-color: #5880a1;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>supercarros</h1>
+    </header>
+
+    <div class="container">
+        <div class="div1">
+            <h1>o que é</h1>
+            <p>Afinal, o que vem a ser um supercarro? Esses veículos têm algumas características específicas para serem
+                considerados como tal. Inicialmente, é a potência do motor e o desempenho do veículo na totalidade.
+                Nesse sentido, entram todos os arranjos aerodinâmicos, câmbio, sistema de freio etc</p>
+        </div>
+        <div class="div2">
+            <h1>exclusividade</h1>
+            <p>Alguns carros são tão especiais que tiveram somente uma unidade produzida, seja para atender a uma
+                necessidade especial da fabricante, seja para atender às demandas de um cliente que busca exclusividade
+            </p>
+        </div>
+        <div class="imagem">
+            <img src="download.jpeg" alt="erro!">
+        </div>
+        <div class="div3">
+            <h2>Icona Vulcano Titanium (2015)</h2>
+            <ul>
+                <li> carroceria de titânio </li>
+                <li> interior em fibra de carbono</li>
+                <li> 689 cv de potência</li>
+                <li> feito à mão</li>
+            </ul>
+        </div>
+    </div>
+    <div class="forms">
+        <form>
+            <label>nome :</label><br>
+            <input type="text"><br><br>
+            <label>email :</label><br>
+            <input type="email"><br><br>
+            <input type="submit" value="enviar">
+        </form>
+    </div>
+    <footer>
+        <p>desenvolvido por Cailan Rodrigues De Sousa | Turma : D</p>
+    </footer>
+</body>
+
+</html>
