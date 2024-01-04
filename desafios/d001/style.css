@@ -47,7 +47,7 @@
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 1.7vw;
+    font-size: 2vw;
  }
  section p{
     padding-bottom: 2em;
@@ -85,5 +85,5 @@
     text-align: center;
     color: white;
     padding: 20px;
-    font-size: 1.4vw;
+    font-size: 1.8vw;
  }
