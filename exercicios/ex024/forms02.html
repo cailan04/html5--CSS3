@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 30vw;
+        }
+    </style>
+</head>
+<body>
+    <h1>formulario</h1>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="sxmas"> <label for="sxmas"> Masculino</label> <br>
+            <input type="radio" name="sexo" id="sxfem"> <label for="sxfem"> Feminino</label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Qual o maior pais do mundo ?</legend>
+            <input type="checkbox" name="br" id="br"> <label for="br"> Brasil</label> <br>
+            <input type="checkbox" name="russia" id="russia"> <label for="russia"> Russia</label> <br>
+            <input type="checkbox" name="eua" id="eua"> <label for="eua">Estados Unidos</label> <br>
+        </fieldset>
+        <label for="cor">cor</label>
+        <input type="color" name="cor" id="cor" value="#ffffff"> <br>
+        <input type="range" min="0" max="10" > 
+    </form>
+
+    <form action="cadastro.php" method="post">
+        <label for="estado"> Estado :</label>
+        <select name="estado" id="estado">
+            <option value="" selected> Escolha</option>
+            <option value="GO"> Goias</option>
+            <option value="RJ">Rio de janeiro</option>
+            <option value="MG">Minas gerais</option>
+            <option value="SP">Sao paulo</option>
+            <option value="BA">Bahia</option>
+            <option value="PE">Pernambuco</option>
+
+        </select>
+        <input type="submit" value="enviar">
+
+    </form>
+</body>
+</html>
